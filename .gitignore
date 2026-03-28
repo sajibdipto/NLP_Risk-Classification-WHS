@@ -1,0 +1,26 @@
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# data files
+*.xlsx
+*.xls
+*.csv
+
+# models and outputs
+models/
+results/
+**/models/
+**/results/
+
+# model / weight / checkpoint files
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.pkl
+
+# generated images and logs
+*.png
+*.log
+*.tmp
